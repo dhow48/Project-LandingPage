@@ -1,0 +1,265 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 100px;
+    background-color: #1f2937;
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    font-size: 34px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 28px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 160px;
+    background-color: #1f2937;
+    gap: 60px;
+}
+
+.hero-left {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+}
+
+.hero-left button {
+    margin-top: 28px;
+    padding: 6px 20px;
+    background-color: #3882f6;
+    border: 0;
+    color: #f9faf8;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.section1 h2 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-style: extra-bold;
+}
+
+.hero-left p {
+    color: #f9faf8;
+    margin-top: 40px;
+    line-height: 1.4;
+}
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-right img {
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 14px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px;
+}
+
+.section2 h2 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.illustrations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 196px;
+}
+
+.illustrations img {
+    width: 100%;
+}
+
+.illustrations p {
+    text-align: center;
+    line-height: 1.4;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 200px;
+    gap: 40px;
+
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 250px;
+    background-color: #e5e7eb;
+}
+
+.section3 .quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.section3 .name {
+    font-size: 18px;
+    color: #1f2937;
+    font-weight: bold;
+    margin: 0;
+    margin-right: 80px;
+    align-self: flex-end;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882f6;
+    margin: 20px 0;
+    padding: 40px 140px;
+    border-radius: 14px;
+}
+
+.banner-left {
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+    gap: 12px;
+}
+
+.banner-left h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.banner-right {
+    display: flex;
+    align-items: center;
+}
+
+.banner button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 1px solid #f9faf8;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 6px 20px;
+    margin-left: 160px;
+    white-space: nowrap;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 26px;
+    position: sticky;
+    bottom: 0;
+}
